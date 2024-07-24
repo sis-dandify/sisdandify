@@ -11,14 +11,19 @@ class Contacts extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return Column(
-      children: [
-        const SizedBox(height: 80),
-        Text(data.contactsLabel, style: Theme.of(context).textTheme.titleLarge),
-        const ContactButtons(),
-        const OpeningHours(),
-        const Location()
-      ],
+    return SingleChildScrollView( // Added SingleChildScrollView
+      child: Column(
+        children: [
+          const SizedBox(height: 80),
+          Text(data.contactsLabel, style: Theme
+              .of(context)
+              .textTheme
+              .titleLarge),
+          const ContactButtons(),
+          const OpeningHours(),
+          const Location()
+        ],
+      ),
     );
   }
 }

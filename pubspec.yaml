@@ -39,7 +39,6 @@ dependencies:
   calendar_date_picker2: ^0.5.3
   flutter_svg: ^2.0.9
   email_validator: ^2.1.17
-  google_maps_flutter: ^2.0.10
 
 dev_dependencies:
   flutter_test:
