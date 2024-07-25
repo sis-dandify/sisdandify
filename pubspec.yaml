@@ -39,6 +39,7 @@ dependencies:
   calendar_date_picker2: ^0.5.3
   flutter_svg: ^2.0.9
   email_validator: ^2.1.17
+  url_launcher: ^6.2.4
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +71,7 @@ flutter:
     - assets/images/contacts/phone.svg
     - assets/images/contacts/whatsapp.svg
     - assets/images/contacts/instagram.svg
+    - assets/images/contacts/sis-map.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
